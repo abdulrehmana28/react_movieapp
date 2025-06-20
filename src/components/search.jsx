@@ -1,10 +1,11 @@
+import searchIcon from '../assets/search.svg';
 const Search = ({ searchTerm, setSearchTerm }) => {
   return (
     <>
       <div className="search">
         {searchTerm}
         <div>
-          <img src="/search.svg" />
+          <img src={searchIcon} alt="favorite" />
           <input
             type="text"
             placeholder="Search through thousand of movies"
